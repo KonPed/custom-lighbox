@@ -24,11 +24,9 @@ $("#imageGallery a").click(function(event) {
     top: "200px",
     height: "fadeIn"
   }, 300).attr("src", imageLocation); //1.2 Update overlay with the image linked in the link
+  //1.3 Get child's alt attribute and set caption
   $caption.text(alt);
 });
-
-
-  //1.3 Get child's alt attribute and set caption
 
 //3. When overlay is clicked
   //3.1 Hide the overlay
