@@ -1,0 +1,63 @@
+body,
+html {
+	font-family: sans-serif;
+	background: #384047;
+}
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+/** Start Coding Here **/
+
+#overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 9999;
+}
+
+#overlay img {
+	background-color: #fff;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 0;
+	right: 0;
+	top: 541px;
+	margin: auto;
+	display: none;
+}
+
+#overlay p {
+	color: #fff;
+	font-size: 1.3em;
+	position: absolute;
+	width: 100%;
+	top: 500px;
+	text-align: center;
+}
